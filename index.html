@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+<!-- <link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/index.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@100;400&family=Victor+Mono:wght@100&display=swap" rel="stylesheet"> -->
+<script src="https://unpkg.com/vue@next"></script>
+<script src="src/app.js" defer></script>
+</head>
+<body>
+    <div id="app">
+        <form id="app-form">
+            <input type="text" v-model = "input_name" placeholder="Digite o seu nome">
+            <input type="submit" value="enviar" v-on:click="submitForm">
+        </form>
+        <p>O meu nome é: {{ name }}</p>
+        <p>Data binding: {{ input_name }}</p>
+    </div>
+    <!-- <div class="container">
+        <header>
+            <div class="titulo">
+                <h1>Adicionar Perfil</h1>
+                <h2>Adicione um perfil ????? para outra pessoa</h2>
+            </div>
+        </header>
+        <div class="divisor">
+            <hr>
+        </div>
+        <main>
+            <div class="main-container">
+                <li>
+                    <div class="container-fotinho">
+                        <img src="images/image1.jpg" alt="fotinho" class="fotinho">
+                        <input type="button" value="">
+                    </div>
+                </li>
+                <li>
+                    <input type="text" class="textbox-nome" placeholder="Nome">
+                </li>
+            </div>
+        </main>
+        <div class="divisor">
+            <hr>
+        </div>
+        <footer>
+            <div class="botoes">
+                <input type="button" value="Continuar" class="btn-continuar">
+                <input type="button" value="Cancelar" class="btn-cancelar">
+            </div>
+        </footer>
+    </div> -->
+</body>
+<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script> -->
+</html>

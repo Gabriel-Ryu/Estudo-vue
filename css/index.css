@@ -1,0 +1,120 @@
+body{
+    background-color: black;
+}
+.container {
+    width: 50%;
+    margin: 20px auto 0px auto;
+}
+
+.container h1{
+    font-size: 500%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container h2 {
+    font-size: 150%;
+    color: #666666;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.divisor{
+    color: #666666;
+    border-color:black;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0px;
+}
+
+.main-container{
+    height: 50%;
+    width: 100%;
+
+}
+
+.container-fotinho{
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    border: 0;
+    transition: 0.5s;
+}
+
+.container-fotinho:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.fotinho{
+    width: 100%;
+    height: 100%;
+}
+
+.textbox-nome{
+    background-color: #666666;
+    color: #ccccc9;
+    position: absolute;
+    top: 50%;
+    height: 20%;
+    width: 160%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120%;
+}
+
+.textbox-nome::placeholder {
+    color: #ccccc9;
+    padding-left: 5px;
+}
+
+.txt_nome{
+    position: relative;
+}
+
+.main-container li{
+    display: inline-block;
+    width: 30%;
+    height: 65%;
+    position: relative;
+    padding: 2%;
+}
+
+.botoes input{
+    width: 30%;
+    height: 10%;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120%;
+}
+
+.btn-continuar{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-continuar:hover {
+    background-color: #cc0001;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-cancelar {
+    background-color: black;
+    color: #666666;
+    border-color: #666666;
+    border-width: 2px;
+    border-style: solid;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-cancelar:hover {
+    background-color: #666666;
+    color: black;
+    cursor: pointer;
+}
